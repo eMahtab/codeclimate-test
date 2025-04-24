@@ -1,0 +1,17 @@
+version: '2'
+plugins:
+  sonar-java:
+    enabled: true
+    channel: stable
+  duplication:
+    enabled: true
+    config:
+      languages:
+        - java
+
+exclude_patterns:
+  - "**/test/**"
+  - "**/build/**"
+  - "**/target/**"
+  - "**/*.md"
+  - "**/*.yml"
