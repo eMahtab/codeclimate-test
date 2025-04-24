@@ -2,7 +2,7 @@ package net.mahtabalam;
 
 public class Person {
 
-    //NOSONAR
+    @SuppressWarnings("java:S1700")
     private String person;
 
 }
